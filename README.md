@@ -1,2 +1,3 @@
 # Redux-App-Core-JavaScript
-there are some issues in the code although it will give you the basic guide of Redux
+No need to install any package 
+There are some issues in the code although it will give you the basic guide of Redux
