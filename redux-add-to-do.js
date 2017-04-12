@@ -25,6 +25,7 @@ const todos=(state=[],action)=>{
 			state;
 	}
 }
+/*
 const testAddTodo=()=>{
 	var stateBefore=[];
 	var stateAfter=[];
@@ -53,9 +54,9 @@ const testToggleTodo=()=>{
 	console.log("Toggle Todo\n"+JSON.stringify(stateBefore));
 	console.log(JSON.stringify(stateAfter));
 };
-// testAddTodo();
-// testToggleTodo();
-
+ testAddTodo();
+ testToggleTodo();
+*/
 const visibilityFilter=(state='SHOW_ALL',action)=>{
 	switch(action.type){
 		case 'SET_VISIBILITY_FILTER':
